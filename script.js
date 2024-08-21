@@ -59,7 +59,6 @@ function mostraPerguntas (){
     mostraPerguntas
 }
 
-mostraPerguntas();
 
 function mostraAlternativas(){
     for (const opção of perguntaAtual.alternativa){
@@ -70,3 +69,4 @@ function mostraAlternativas(){
     }
 }
 
+mostraPerguntas();
