@@ -6,7 +6,7 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const alternativas = [
     {
-        enunciado: "No ambito social, você prefere:",
+        enunciado: "No âmbito social, você prefere:",
         alternativa: [
             {
                 texto: "Alternativa 1",
@@ -20,7 +20,7 @@ const alternativas = [
 
     },
     {
-        enunciado: "No ambito ambiental, você prefere:",
+        enunciado: "No âmbito ambiental, você prefere:",
         alternativa: [
             {
                 texto: "Alternativa 1",
@@ -34,7 +34,7 @@ const alternativas = [
 
     },
     {
-        enunciado: "No ambito tecnologico, você prefere:",
+        enunciado: "No âmbito tecnológico, você prefere:",
         alternativa: [
             {
                 texto: "Alternativa 1",
