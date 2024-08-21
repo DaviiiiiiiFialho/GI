@@ -61,3 +61,9 @@ function mostraPerguntas (){
 
 mostraPerguntas();
 
+function mostraAlternativas(){
+    for (const opção of perguntaAtual.alternativa){
+
+    }
+}
+
