@@ -14,7 +14,7 @@ const alternativas = [
             },
             {
                 texto: "Alternativa 2",
-                    afirmacao: "Afirmação 2"
+                afirmacao: "Afirmação 2"
             }
         ]
 
@@ -28,7 +28,7 @@ const alternativas = [
             },
             {
                 texto: "Alternativa 2",
-                    afirmacao: "Afirmação 2"
+                afirmacao: "Afirmação 2"
             }
         ]
 
@@ -42,7 +42,7 @@ const alternativas = [
             },
             {
                 texto: "Alternativa 2",
-                    afirmacao: "Afirmação 2"
+                afirmacao: "Afirmação 2"
             }
         ]
 
@@ -51,22 +51,32 @@ const alternativas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
-function mostraPerguntas (){
+function mostraPerguntas() {
     perguntaAtual = alternativas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent= "";
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
 
-function mostraAlternativas(){
-    for (const opção of perguntaAtual.alternativa){
+function mostraAlternativas() {
+    for (const opção of perguntaAtual.alternativa) {
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent = opção.texto;
+        botaoAlternativa.addEventListener("click",  ()=> respostaSelecionada(opção));
         caixaAlternativas.appendChild(botaoAlternativa);
-        
+
     }
+
+function respostaSelecionada(opção){
+    atual++;
+    mostraPerguntas();
+    
+}
+
+
 }
 
 mostraPerguntas();
