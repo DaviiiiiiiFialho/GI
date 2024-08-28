@@ -9,12 +9,12 @@ const alternativas = [
         enunciado: "No âmbito social, você prefere:",
         alternativa: [
             {
-                texto: "Alternativa 1",
-                afirmacao: "Você pode escolher qualquer poder  que quiser, porém toda sua família morre"
+                texto: "Você pode escolher qualquer poder  que quiser, porém toda sua família morre",
+                afirmacao: "Parabéns, tomara que seu poder quebre..."
             },
             {
-                texto: "Alternativa 2",
-                afirmacao: " Você só poderá falar com minhoca, porém toda sua família vive"
+                texto: "Você só poderá falar com minhoca, porém toda sua família vive",
+                afirmacao: "Tomara que você goste de terra"
             }
         ]
 
@@ -23,12 +23,12 @@ const alternativas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativa: [
             {
-                texto: "Alternativa 1",
-                afirmacao: "Ter todo o dinheiro que quiser, mas a Amazônia morre"
+                texto: "Ter todo o dinheiro que quiser, mas a Amazônia morre",
+                afirmacao: "Oq adianta ter dinheiro se você não vai ter vida?"
             },
             {
-                texto: "Alternativa 2",
-                afirmacao: "Você pode salvar a Amazônia, mas você nunca mais terá nenhum real na conta"
+                texto: "Você pode salvar a Amazônia, mas você nunca mais terá nenhum real na conta",
+                afirmacao: "Vai viver de favor neh"
             }
         ]
 
@@ -37,12 +37,12 @@ const alternativas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativa: [
             {
-                texto: "Alternativa 1",
-                afirmacao: "A internet do mundo todo para, mas você consegue inventar algo e se torna a pessoa mais rica da história"
+                texto: "A internet do mundo todo para, mas você consegue inventar algo e se torna a pessoa mais rica da história",
+                afirmacao: "EGOISTAAA"
             },
             {
-                texto: "Alternativa 2",
-                afirmacao: "A Nasa te contrata para o cargo mais alto da empresa, mas metade da população morre por conta do seu trabalho"
+                texto: "A Nasa te contrata para o cargo mais alto da empresa, mas metade da população morre por conta do seu trabalho",
+                afirmacao: "Os outros não importam neh... ZÉ RUELA"
             }
         ]
 
