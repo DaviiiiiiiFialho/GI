@@ -71,9 +71,11 @@ function mostraAlternativas() {
     }
 
 function respostaSelecionada(opção){
+    const afirmacoes = opção.alternativas;
+    
     atual++;
     mostraPerguntas();
-    
+
 }
 
 
