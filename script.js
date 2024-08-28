@@ -10,11 +10,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Você pode escolher qualquer poder  que quiser, porém toda sua família morre",
-                afirmacao: "Parabéns, tomara que seu poder quebre..."
+                afirmacao: "Parabéns,além de orfão egoista"
             },
             {
                 texto: "Você só poderá falar com minhoca, porém toda sua família vive",
-                afirmacao: "Tomara que você goste de terra"
+                afirmacao: "Tomara que você goste de minhocas"
             }
         ]
 
@@ -24,11 +24,11 @@ const alternativas = [
         alternativa: [
             {
                 texto: "Ter todo o dinheiro que quiser, mas a Amazônia morre",
-                afirmacao: "Oq adianta ter dinheiro se você não vai ter vida?"
+                afirmacao: "Oq adianta o dinheiro se não vai ter qualidade de vida que a Amazônia proporciona?"
             },
             {
                 texto: "Você pode salvar a Amazônia, mas você nunca mais terá nenhum real na conta",
-                afirmacao: "Vai viver de favor neh"
+                afirmacao: "Vai viver de favor mas a amazonia agradece"
             }
         ]
 
@@ -38,7 +38,7 @@ const alternativas = [
         alternativa: [
             {
                 texto: "A internet do mundo todo para, mas você consegue inventar algo e se torna a pessoa mais rica da história",
-                afirmacao: "EGOISTAAA"
+                afirmacao: "Um mundo sem a tecnologia e conexoes atrasa diversos setores"
             },
             {
                 texto: "A Nasa te contrata para o cargo mais alto da empresa, mas metade da população morre por conta do seu trabalho",
